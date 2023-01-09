@@ -172,15 +172,6 @@ body {
   width: 48px;
   height: 48px;
   bottom: 30px;
-  left: 50%;
-  -webkit-transform: translate(50%, 0);
-          transform: translate(50%, 0);
-  color: #fff;
-  -webkit-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
-}
-.header__button:hover {
-  color: #ff6a00;
 }
 
 .button {
@@ -238,7 +229,6 @@ body {
   transition: stroke 0.2s ease-in, transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 .header-arrow:hover {
-  stroke: rgb(47, 192, 240);
-  -webkit-transform: scale(2.1);
-          transform: scale(2.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }

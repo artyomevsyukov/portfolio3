@@ -3,15 +3,9 @@
   width: 48px;
   height: 48px;
   bottom: 30px;
-  left: 50%;
+  // left: 50%;
   // margin-left: -24px;
-  transform: translate(50%, 0);
-  color: $buttonWhite;
-  transition: color 0.2s ease-in;
-
-  &:hover {
-    color: $accent-color-hover;
-  }
+  // transform: translate(50%, 0);
 }
 
 .button {
