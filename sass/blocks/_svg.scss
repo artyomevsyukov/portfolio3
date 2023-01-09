@@ -1,0 +1,8 @@
+.header-arrow {
+  stroke: white;
+  transition: stroke 0.2s ease-in, transform 0.2s ease-in;
+  &:hover {
+    stroke: rgb(47, 192, 240);
+    transform: scale(2.1);
+  }
+}

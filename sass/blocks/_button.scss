@@ -1,0 +1,71 @@
+.header__button {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  bottom: 30px;
+  left: 50%;
+  // margin-left: -24px;
+  transform: translate(50%, 0);
+  color: $buttonWhite;
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    color: $accent-color-hover;
+  }
+}
+
+.button {
+  display: inline-block;
+  height: 58px;
+  line-height: 58px; //текст по центру
+  padding-left: 37px;
+  padding-right: 37px;
+  border-radius: 29px;
+  background-color: $accent-color;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: $accent-color-hover;
+  }
+
+  // .button--white {
+  // }
+  &--white {
+    background-color: white;
+    color: $black-color;
+
+    &:hover {
+      background-color: $black-color;
+      color: white;
+      transition: background-color 0.2s ease-in, color 0.2s ease-in;
+      // transition: color 0.2s ease-in;
+    }
+  }
+
+  &--play {
+    position: relative;
+    padding-left: 50px;
+
+    &::before {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      // margin-top: 1px;
+
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-image: url("./../img/icons/play.svg");
+      background-size: initial;
+      background-repeat: no-repeat;
+    }
+  }
+}
