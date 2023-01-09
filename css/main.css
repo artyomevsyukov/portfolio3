@@ -194,10 +194,10 @@ body {
 }
 .button--white {
   background-color: white;
-  color: #323232;
+  color: #323252;
 }
 .button--white:hover {
-  background-color: #323232;
+  background-color: #323252;
   color: white;
   -webkit-transition: background-color 0.2s ease-in, color 0.2s ease-in;
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
