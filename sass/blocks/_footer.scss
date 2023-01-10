@@ -1,15 +1,31 @@
 .footer {
+  height: 290px;
+  padding-top: 45px;
+  padding-bottom: 129px;
+  background-color: #1e4776;
 }
 
 .footer-row {
+  display: flex;
+
+  column-gap: 30px;
 }
 .logo {
 }
 .social {
 }
 .social-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  color: $textWhite;
 }
 .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
 }
 .contacts {
 }
