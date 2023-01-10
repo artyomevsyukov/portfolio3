@@ -2,11 +2,18 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
 }
 
 .container {
   max-width: 1140px;
-  padding: 0 15px;
+  padding: 80px 15px 115px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.none {
+  display: none !important;
 }
