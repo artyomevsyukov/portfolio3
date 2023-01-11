@@ -7,13 +7,16 @@
 
 .footer-row {
   display: flex;
-
   justify-content: space-between;
-
   column-gap: 30px;
 }
-.copyright {
+
+.footer-col {
+  flex-grow: 1;
   max-width: 350px;
+}
+
+.copyright {
   color: $textBlue;
   line-height: 130%;
 
@@ -30,8 +33,6 @@
 }
 
 .social {
-  max-width: 350px;
-
   & p {
     margin-bottom: 15px;
     font-weight: 600;
@@ -48,11 +49,10 @@
 }
 
 .contacts {
-  max-width: 350px;
-
   & p {
+    margin-top: 15px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.3;
     color: #7e9ec9;
   }
