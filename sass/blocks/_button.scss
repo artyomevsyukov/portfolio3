@@ -9,6 +9,25 @@
   // transform: translate(-50%, 0);
 }
 
+.footer-button {
+  display: inline-block;
+  border: 3px solid $buttonWhite;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 44px; //-border
+  padding-left: 30px;
+  padding-right: 30px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $buttonWhite;
+}
+
+// _____________________________________________
+
 .button {
   display: inline-block;
   height: 58px;

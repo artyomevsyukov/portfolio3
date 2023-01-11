@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- header -->
-    <div class="header none">
+    <header class="header none">
       <h1 class="header-title">Артем</h1>
       <h2 class="header-subtitle">
         фрилансер, веб-разработчик, создание сайтов
@@ -33,11 +33,11 @@
           />
         </svg>
       </button>
-    </div>
+    </header>
     <!-- portfolio -->
-    <div class="portfolio">
+    <main class="portfolio">
       <div class="container">
-        <h1 class="title1">Портфолио</h1>
+        <h2 class="portfolio-header title2">Портфолио</h2>
         <div class="project-row">
           <a class="project__link" href="#"
             ><div class="project">
@@ -85,18 +85,18 @@
           >
         </div>
       </div>
-    </div>
+    </main>
     <!-- footer -->
-    <div class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer-row">
-          <div class="logo">
-            © Юрий Ключевский HTML верстка и разработка сайтов
+          <div class="copyright">
+            <div class="copyright-name">© Юрий Ключевский</div>
+            <p>HTML верстка и разработка сайтов</p>
           </div>
+
           <div class="social">
-            <div class="social-title">
-              <p>Мои профили в социальных сетях:</p>
-            </div>
+            <p>Мои профили в социальных сетях:</p>
             <div class="social-icon">
               <a href="#"
                 ><img src="./img/icons/instagram.svg" alt="instagram"
@@ -111,9 +111,16 @@
               <a href="#"><img src="./img/icons/github.svg" alt="github" /></a>
             </div>
           </div>
-          <div class="contacts"></div>
+
+          <div class="contacts">
+            <a href="#" class="footer-button">Связаться Вконтакте</a>
+            <p>
+              Напишите мне, чтобы заказать или узнать стоимость верстки вашего
+              проекта
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
