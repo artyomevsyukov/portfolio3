@@ -42,10 +42,19 @@
   }
 }
 
-.social-icon {
+.social__icon {
   display: flex;
   align-items: center;
   column-gap: 35px;
+  fill: white;
+
+  &_svg {
+    fill: $buttonWhite;
+    &:hover {
+      fill: #f78434;
+      transition: fill 0.2s ease-in;
+    }
+  }
 }
 
 .contacts {

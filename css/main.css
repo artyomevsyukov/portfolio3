@@ -199,6 +199,9 @@ body {
   text-transform: uppercase;
   color: #fff;
 }
+.footer-button:hover {
+  background-color: #ff6a00;
+}
 
 .button {
   display: inline-block;
@@ -377,7 +380,7 @@ body {
   color: #fff;
 }
 
-.social-icon {
+.social__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,6 +390,15 @@ body {
   -webkit-column-gap: 35px;
      -moz-column-gap: 35px;
           column-gap: 35px;
+  fill: white;
+}
+.social__icon_svg {
+  fill: #fff;
+}
+.social__icon_svg:hover {
+  fill: #f78434;
+  -webkit-transition: fill 0.2s ease-in;
+  transition: fill 0.2s ease-in;
 }
 
 .contacts p {
