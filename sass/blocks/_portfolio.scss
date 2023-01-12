@@ -32,9 +32,13 @@
 }
 .project__link {
   color: $textBlack;
-  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, color 0.2s ease-in;
 
   &:hover {
-    transform: scale(1.1);
+    transform: translateY(-15px);
+    color: $textBlue;
+  }
+  & h3:hover {
+    color: $textBlue;
   }
 }

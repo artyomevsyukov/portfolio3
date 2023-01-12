@@ -1,0 +1,22 @@
+.project-forest {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  text-align: center;
+
+  &__description {
+    max-width: 730px;
+    margin: 0 auto 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+}
+.project-header {
+  margin-bottom: 40px;
+}
+.project-forest-img {
+  margin-bottom: 69px;
+}
