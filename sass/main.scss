@@ -7,9 +7,9 @@
 //Bloks
 
 @import "./blocks/header/index.scss";
+@import "./blocks/title";
 @import "./blocks/button";
 @import "./blocks/svg";
-@import "./blocks/portfolio";
-@import "./blocks/title";
-@import "./blocks/footer";
+@import "./blocks/portfolio/index.scss";
+@import "./blocks/footer/index.scss";
 @import "./blocks/forest-main";
