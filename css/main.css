@@ -373,7 +373,6 @@ body {
   }
 }
 .footer {
-  height: 290px;
   padding-top: 45px;
   padding-bottom: 130px;
   background-color: #1e4776;
@@ -450,6 +449,23 @@ body {
   color: #7e9ec9;
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  .footer-row {
+    row-gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .project-forest {
   padding-top: 80px;
   padding-bottom: 120px;
