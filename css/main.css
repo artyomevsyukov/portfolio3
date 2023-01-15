@@ -489,3 +489,38 @@ body {
 .project-forest-img {
   margin-bottom: 69px;
 }
+
+@media (max-width: 1024px) {
+  .project-forest {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+  .project-forest__description {
+    margin: 0 auto 50px;
+  }
+  .project-header {
+    margin-bottom: 30px;
+  }
+  .project-forest-img {
+    margin-bottom: 29px;
+  }
+}
+@media (max-width: 768px) {
+  .project-forest {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .project-forest__description {
+    margin: 0 auto 40px;
+  }
+  .project-header {
+    margin-bottom: 20px;
+  }
+  .project-forest-img {
+    margin-bottom: 19px;
+  }
+  .btn-back {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
